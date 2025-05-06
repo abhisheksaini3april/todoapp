@@ -49,3 +49,8 @@ function showTask()
     taskmai.innerHTML=localStorage.getItem("data");
 }
 showTask();
+
+
+let date = new Date();
+let dat1 = document.querySelector(".timed");
+dat1.innerHTML = date.toString(); // Formats the date into a readable string
